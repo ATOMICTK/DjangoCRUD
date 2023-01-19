@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+<main class="container py-5">
+    <section>
+        <h1 class="card card-body text-center display-1 ">Django App CRUD</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus voluptates earum ex voluptatem,
+            consequuntur quod ratione obcaecati! Accusamus magnam dolores repudiandae nulla. Vero molestiae, inventore nam
+            labore exercitationem suscipit amet.</p>
+    </section>
+    <div class="text-center">
+        <a class="btn btn-dark" href="{% url 'login' %}">
+            Login
+        </a>
+        <a class="btn btn-dark" href="{% url 'signup' %}">
+            Signup
+        </a>
+    </div>
+</main>
+{% endblock %}
